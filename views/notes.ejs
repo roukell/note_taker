@@ -7,7 +7,8 @@
 
   <%-include("layouts/navbar");-%>
 
-  <div class="container-fluid">
+  <div class="container">
+
     <div class="row">
       <div class="col-4 list-container">
         <div class="card">
@@ -15,11 +16,16 @@
           </ul>
         </div>
       </div>
-      <div class="col-8">
-        <input class="note-title" placeholder="Note Title" maxlength="28" type="text">
-        <textarea class="note-textarea" placeholder="Note Text"></textarea>
+
+      <div class="col-8 note-total-area">
+        <div class="note-title-area">
+          <input class="note-title" placeholder="Note Title" maxlength="28" type="text">
+        </div>
+        <div class="note-text-area">
+          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+        </div>
       </div>
-    </div>
+  </div>
   </div>
 
   <%-include("layouts/script");-%>
