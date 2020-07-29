@@ -23,8 +23,9 @@ app.get("/api/notes", (req, res) => {
 });
 
 // api post routes
-app.post("/api/notes", (req, res) => {
-    res.json(dbjson);
+app.post("/notes", (req, res) => {
+    dbjson.push(req.body);
+    console.log(dbjson);
 });
 
 

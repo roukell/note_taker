@@ -69,8 +69,3 @@ html, body {
   padding: 20px;
   cursor: pointer;
 }
-
-input {
-  width: -webkit-fill-available;
-  border-color: transparent;
-}
