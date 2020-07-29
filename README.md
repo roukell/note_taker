@@ -1,5 +1,5 @@
 
-  # note_taker
+  # Note Taker
   ![License](https://img.shields.io/github/license/roukell/note_taker)
 
   ## Description
