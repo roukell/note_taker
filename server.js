@@ -29,6 +29,17 @@ app.post("/api/notes", (req, res) => {
     res.json(dbjson);
 });
 
+app.delete("/api/notes/:id", (req, res) => {
+    console.log(req.params.id);
+    for (let i = 0; i < dbjson.length; i++) {
+        if (dbjson[i].id === req.params.id) {
+            dbjson.splice(i, 1);
+        }
+    }
+    writeToFile("./db/db.json", JSON.stringify(dbjson));
+    res.json(dbjson);
+})
+
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public/index.html"));
 });
