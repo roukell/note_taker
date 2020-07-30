@@ -15,13 +15,14 @@ app.get("/notes", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public/notes.html"));
 });
 
-// api get routes
+// api get route
 app.get("/api/notes", (req, res) => {
     res.json(dbjson);
 });
 
-// api post routes
+// api post route
 app.post("/api/notes", (req, res) => {
+    // assign unique id to each note
     req.body.id = uuidv4();
     dbjson.push(req.body);
     writeToFile("./db/db.json", JSON.stringify(dbjson));
@@ -29,6 +30,7 @@ app.post("/api/notes", (req, res) => {
     res.json(dbjson);
 });
 
+// api delete route
 app.delete("/api/notes/:id", (req, res) => {
     console.log(req.params.id);
     for (let i = 0; i < dbjson.length; i++) {
@@ -40,6 +42,7 @@ app.delete("/api/notes/:id", (req, res) => {
     res.json(dbjson);
 })
 
+// index.html route
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public/index.html"));
 });
