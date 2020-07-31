@@ -2,11 +2,18 @@
   # Note Taker
   ![License](https://img.shields.io/github/license/roukell/note_taker)
 
+  ## Preview
+  Index page
+  ![img](./assets/img/screenshot1.png)
+  Note page
+  ![img](./assets/img/screenshot2.png)
+
   ## Description
   * Note Taker helps you create, read, and delete notes.
+  * Deployed application on Heroku: https://frozen-fortress-40163.herokuapp.com/
 
   ## Table of Contents
-  * [Installation](#installation)
+  * [Installation](#Installation)
   * [Usage](#Usage)
   * [License](#License)
   * [Contributing](#Contributing)
@@ -19,8 +26,9 @@
 
   ## Usage
   1. Please fork this repository to your folder and install dependencies.
-  2. Use the Note Taker app by running `npm start` in Node.js. 
+  2. Use the Note Taker app by running `node server.js` in Node.js. 
   3. Remember the notes that has been created cannot be edited.
+  4. Alternatively, to use this app directly, please click on the link under [Description](#Description)
 
   ## License
   * MIT
