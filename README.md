@@ -25,7 +25,7 @@
   ## Usage
   1. Fork this repository to your folder and install dependencies.
   2. Use the Note Taker app by running `node server.js` in Node.js. 
-  3. Notes that has been created cannot be edited.
+  3. Notes that have been created cannot be edited.
 
   Alternatively, to use this app directly, click on the link under [Description](#Description). Click on get started to create notes.
 
