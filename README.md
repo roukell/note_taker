@@ -27,7 +27,7 @@
   2. Use the Note Taker app by running `node server.js` in Node.js. 
   3. Notes that have been created cannot be edited.
 
-  Alternatively, to use this app directly, click on the link under [Description](#Description). Click on get started to create notes.
+  Alternatively, to use this app directly, click on the Heroku link under [Description](#Description). Click on get started to create notes.
 
   ## License
   * MIT
