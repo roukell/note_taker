@@ -3,9 +3,7 @@
   ![License](https://img.shields.io/github/license/roukell/note_taker)
 
   ## Preview
-  Index page
   ![img](./assets/img/screenshot1.png)
-  Note page
   ![img](./assets/img/screenshot2.png)
 
   ## Description
@@ -25,10 +23,11 @@
       npm install
 
   ## Usage
-  1. Please fork this repository to your folder and install dependencies.
+  1. Fork this repository to your folder and install dependencies.
   2. Use the Note Taker app by running `node server.js` in Node.js. 
-  3. Remember the notes that has been created cannot be edited.
-  4. Alternatively, to use this app directly, please click on the link under [Description](#Description)
+  3. Notes that has been created cannot be edited.
+
+  Alternatively, to use this app directly, click on the link under [Description](#Description). Click on get started to create notes.
 
   ## License
   * MIT
